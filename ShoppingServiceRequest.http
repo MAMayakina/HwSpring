@@ -1,0 +1,27 @@
+### Получить корзину продуктов
+GET http://localhost:8080//shoppingCart/get
+
+### Добавить продукт 1
+POST http://localhost:8080//shoppingCart/add
+Content-Type: application/json
+
+{
+  "idProduct": 13,
+  "idProduct": 12
+}
+
+### Добавить продукт 2
+POST http://localhost:8080//shoppingCart/add
+Content-Type: application/json
+
+{
+  "idProduct": 56
+}
+
+### Добавить продукт 3
+POST http://localhost:8080//shoppingCart/add
+Content-Type: application/json
+
+{
+  "idProduct": 44
+}
