@@ -6,8 +6,7 @@ POST http://localhost:8080//shoppingCart/add
 Content-Type: application/json
 
 {
-  "idProduct": 13,
-  "idProduct": 12
+  "id": 13
 }
 
 ### Добавить продукт 2
@@ -15,7 +14,7 @@ POST http://localhost:8080//shoppingCart/add
 Content-Type: application/json
 
 {
-  "idProduct": 56
+  "id": 56
 }
 
 ### Добавить продукт 3
@@ -23,5 +22,5 @@ POST http://localhost:8080//shoppingCart/add
 Content-Type: application/json
 
 {
-  "idProduct": 44
+  "id": 44
 }
